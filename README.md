@@ -1,15 +1,50 @@
 # ⚙️ CPU Scheduling Simulator 
 
-A modern, high-performance CPU Scheduling Simulator built in Python using the **CustomTkinter** framework. This application allows users to simulate, visualize, and analyze various process scheduling algorithms with animated Gantt charts and real-time performance analytics.
 
-## ✨ Features
-* **6 Scheduling Algorithms:** Supports FCFS, SJF (Preemptive/Non-Preemptive), Round Robin, and Priority (Preemptive/Non-Preemptive).
-* **Animated Gantt Chart:** Live, expandable canvas rendering with custom simulation speed controls[cite: 1].
-* **Performance Metrics:** Instant evaluation of Average Waiting Time (Avg WT), Turnaround Time (Avg TAT), Response Time, CPU Utilization, and Throughput[cite: 1].
-* **Data Management:** Built-in tools to Add, Edit, Delete, or auto-generate random processes, plus CSV file integration[cite: 1].
+A GUI-based CPU Scheduling Simulator developed in Python using CustomTkinter.
 
-## 🛠️ Requirements & Installation
-This project requires Python 3.x. Install the dependencies using pip[cite: 1]:
+It allows users to visualize different CPU Scheduling Algorithms with Gantt Charts and performance metrics.
 
-```bash
-pip install customtkinter pillow
+---
+
+## Features
+
+- FCFS
+- SJF (Preemptive)
+- SJF (Non-Preemptive)
+- Priority (Preemptive)
+- Priority (Non-Preemptive)
+- Round Robin
+
+- Interactive GUI
+- Gantt Chart
+- Waiting Time
+- Turnaround Time
+- Average Metrics
+
+---
+
+## Technologies
+
+- Python
+- CustomTkinter
+- Matplotlib
+
+---
+
+## Installation
+
+git clone https://github.com/Vatsalya-Sahu/CPU-Scheduling-Simulator.git
+
+cd CPU-Scheduling-Simulator
+
+pip install -r requirements.txt
+
+python main.py
+
+---
+
+
+## Author
+
+Vatsalya Sahu
